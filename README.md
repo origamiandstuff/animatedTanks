@@ -36,9 +36,9 @@ Then to make a tank animate, in the definition, add
         ON_ALT: (body) => animate(body, "tank class name(without the number at the back)", <frames>, reverse, <time between frames>)
 
 do that for both states.
-Then, to make the animation frames,
+Then, to make the animation frames
 
-for ( let ii = 1; ii < 10; ii++ ) {
+    for ( let ii = 1; ii < 10; ii++ ) {
     let R1 = Math.floor((255 / 10) * ii)
     let R = R1.toString(16)
     let B1 = Math.floor((255 / 10) * (10 - ii))
